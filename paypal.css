@@ -1,0 +1,626 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.one {
+
+    align-items: end;
+    display: flex;
+    /* align-content: flex-start; */
+    height: 72px;
+    background-color: #ffff;
+
+
+    .heder_content {
+
+        padding: 0px 48px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-evenly;
+        height: 52px;
+        max-width: 1192px;
+    }
+
+
+}
+
+.paypal_img {
+
+    width: 136px;
+    height: 34px;
+    display: inline-block;
+
+    display: flex;
+    background: transparent url(Assets/images/logo.svg) center center no-repeat;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position: 0 50%;
+    background-size: contain;
+    overflow: hidden;
+    text-indent: -999em;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+li {
+    list-style: none;
+    font-size: 20px;
+
+}
+
+nav {
+    margin: -13px 130px;
+    display: inline-block;
+    background-color: transparent;
+
+}
+
+ul {
+    display: flex;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    padding: 25px 25px 23px
+}
+
+.contect1 {
+    border: 1px solid #0070ba;
+    text-align: center;
+    color: #0070ba;
+    border-radius: 25%;
+}
+
+.log {
+    display: flex;
+    justify-content: center;
+}
+
+
+.a1 {
+    color: #0070ba;
+    font-family: PayPalSansBig-Light, Helvetica Neue, Arial, sans-serif;
+    margin: 0px 8px 8px 8px;
+    border: 1px solid #0070ba;
+    background-color: transparent;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+a {
+
+    height: 18px;
+    padding: 8px 17px;
+}
+
+.a2 {
+    border-style: none;
+    margin: 0px 8px 8px 8px;
+
+    border: 1px solid black;
+    background-color: #0070ba;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.textcontenar {
+    z-index: 1;
+
+    justify-content: center;
+
+    /* background-color:#0070ba; */
+    min-height: 350px;
+}
+
+.tex {
+    font-weight: 100;
+    margin: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 174px;
+    width: 780px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+    line-height: 3rem;
+    font-family: PayPalSansBig-Light, Helvetica Neue, Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.sn {
+    display: flex;
+    justify-content: center;
+}
+
+.sing_in {
+    padding-top: 15px;
+    font-family: PayPalSansBig-Light, Helvetica Neue, Arial, sans-serif;
+    color: #0070ba;
+    margin: 22px;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    height: 21px;
+    width: 274px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 25px;
+}
+
+.video_background {
+    width: 100%;
+    height: 1228px;
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    object-fit: cover;
+}
+
+.bluebox {
+    background-color: #02387b;
+    width: 100%;
+    height: 108px;
+    margin: 95.9px 0px 0px 0px;
+}
+
+.blboxcon {
+    text-align: center;
+}
+
+.bluetext {
+    font-weight: 100;
+    margin-bottom: 12px;
+    padding-top: 12px;
+    color: #fff;
+    font-size: 22px;
+    font-size: 1.57142857rem;
+    font-family: PayPalSansBig-Light, Helvetica Neue, Arial, sans-serif;
+    font-weight: 400;
+
+}
+
+#butbus {
+    border: 1px solid white;
+    border-radius: 25px;
+    color: #02387b;
+    background-color: white;
+    border-style: none;
+    font-family: PayPalSansBig-Light, Helvetica Neue, Arial, sans-serif;
+}
+
+.nextpage {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    background-color: #f5f7fa;
+}
+
+.textnextpage {
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 80px;
+    width: 536px;
+    height: 330px;
+    margin: 0px 40px;
+
+
+}
+
+.imgnextpage {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+    width: 536px;
+    height: 330px;
+    margin: 0px 40px;
+
+}
+
+.ttxxbut {
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 280px;
+    height: 40px;
+    border: 1px solid #0070ba;
+    border-radius: 25px;
+    background-color: #f5f7fa;
+    color: #02387b;
+}
+
+.ttxx {
+    margin-left: 29px;
+    font-family: PayPalSansBig-Light, Helvetica Neue, Arial, sans-serif;
+    ;
+
+    margin-bottom: 20px;
+
+
+}
+
+
+#axtb {
+    font-weight: 600;
+    padding-top: 12px;
+    color: #0070ba;
+    font-family: PayPalSansBig-Light, Helvetica Neue, Arial, sans-serif;
+    ;
+    text-decoration: none;
+}
+
+.zx {
+    display: flex;
+    justify-content: start;
+}
+
+#opop {
+    color: #00A8EA;
+    font-family: PayPalSansBig-Light, Helvetica Neue, Arial, sans-serif;
+    ;
+    padding-left: 26px;
+    margin-top: 52px;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+img .imgshop {
+    width: 320px;
+    height: 320px;
+}
+
+.threedpage {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+    background-color: white;
+
+}
+
+.secimg {
+
+    width: 536px;
+    height: 330px;
+}
+
+#imgphone {
+    padding-top: 20px;
+    padding-left: 175px;
+    width: 320px;
+    height: 320px;
+}
+
+.textthreedpage {
+    width: 536px;
+    height: 330px;
+}
+
+#ppoo {
+    color: #00A8EA;
+    font-family: PayPalSansBig-Light, Helvetica Neue, Arial, sans-serif;
+    ;
+    padding-left: 26px;
+    margin-top: 52px;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.txtx {
+    padding-top: 32px;
+    font-family: PayPalSansBig-Light, Helvetica Neue, Arial, sans-serif;
+    ;
+}
+
+#para2 {
+    font-family: PayPalSansBig-Light, Helvetica Neue, Arial, sans-serif;
+    padding-left: 30px;
+}
+
+.linkbut {
+    margin-left: 26px;
+    margin-top: 26px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 280px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #0070ba;
+    border-radius: 25px;
+
+    color: #02387b;
+}
+
+#blcf {
+    font-weight: 600;
+    padding-top: 12px;
+    color: #0070ba;
+
+    font-family: PayPalSansBig-Light, Helvetica Neue, Arial, sans-serif;
+    ;
+    text-decoration: none;
+}
+
+.fourthpage {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    background-color: #f5f7fa;
+}
+
+.textfpage {
+
+    width: 536px;
+
+    height: 330px;
+
+}
+
+#hfpage {
+    color: #00A8EA;
+    font-family: PayPalSansBig-Light, Helvetica Neue, Arial, sans-serif;
+    ;
+    padding-left: 26px;
+    margin-top: 52px;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.pfpage {
+    margin-left: 29px;
+    font-family: PayPalSansBig-Light, Helvetica Neue, Arial, sans-serif;
+    ;
+
+}
+
+.texmeg {
+    display: flex;
+    justify-content: start;
+}
+
+.fbut {
+    margin-top: 20px;
+    margin-left: 23px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 280px;
+    height: 40px;
+    border: 1px solid #0070ba;
+    border-radius: 25px;
+    background-color: #f5f7fa;
+    color: #02387b;
+}
+
+#ffbut {
+    font-weight: 600;
+    padding-top: 12px;
+    color: #0070ba;
+
+    font-family: PayPalSansBig-Light, Helvetica Neue, Arial, sans-serif;
+    text-decoration: none;
+
+}
+
+.imgfpage {
+    width: 536px;
+    height: 330px;
+
+}
+
+#imgtshart {
+    margin-left: 70px;
+    width: 320px;
+    height: 320px;
+}
+
+.aub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+    background-color: white;
+}
+
+.hed {
+    width: 100%;
+    height: 48px;
+}
+
+.textofaub {
+    margin: 12px 0px 20px 0px;
+    color: #00A8EA;
+    font-family: PayPalSansBig-Light, Helvetica Neue, Arial, sans-serif;
+    ;
+}
+
+.imgtaub {
+    margin-top: 35px;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 72px;
+
+}
+
+.logoimgaduone {
+    height: 34px;
+    margin: 20px;
+}
+
+.logoimgaduthr {
+    margin-left: 15px;
+}
+
+.hedtexxt {
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 174px;
+    background-color: #00A8EA;
+}
+
+.rowtext {
+    width: 80%;
+    color: white;
+    font-size: 2.14285714rem;
+    display: flex;
+    font-weight: 100;
+    justify-content: center;
+    text-align: center;
+    font-family: PayPalSansBig-Light, Helvetica Neue, Arial, sans-serif;
+    ;
+
+}
+
+.jktucvdy {
+    font-size: 2.14285714rem;
+    height: 92px;
+    color: white;
+    padding: 24px 0px 20px 0px;
+    font-family: PayPalSansBig-Light, Helvetica Neue, Arial, sans-serif;
+    font-weight: 400;
+}
+
+.ophrklo {
+    text-align: center;
+
+    width: 950px;
+    height: 174px;
+}
+
+.kioape {
+    padding: 12px 100px;
+    border: 1px solid black;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #0d3685;
+    font-size: .9375rem;
+    font-weight: 400;
+
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: white;
+}
+
+#lastclock {
+    width: 100%;
+    height: 25vh;
+    background-color: #00A8EA;
+}
+
+.boxclock {
+    color: black;
+    font-weight: 600;
+    font-size: 50px;
+
+    text-align: center;
+    width: 56px;
+    height: 62px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.colock {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 20px 0px;
+}
+
+.colock,
+.boxclock {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#textoftext {
+    width: 100%;
+    height: 20vh;
+
+}
+
+.txtof {
+    line-height: 20px;
+    margin: auto;
+    padding: 30px 170px;
+}
+
+footer {
+    width: 100%;
+    height: 40vh;
+}
+
+.footcont {
+    margin: auto;
+    margin-top: 30px;
+
+    width: 76%;
+    height: 200px;
+}
+
+.onefoot {
+    padding: 8px;
+    font-weight: 600;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(51, 48, 48);
+    text-decoration: none;
+}
+
+.onefoot:hover {
+    text-decoration: underline;
+}
+
+#kd {
+    margin-top: 8px;
+    border: 1px solid rgb(51, 48, 48);
+}
+
+#india {
+    width: 24px;
+}
+
+.footlist {
+    padding-top: 8px;
+    display: flex;
+}
+
+#loko {
+    position: relative;
+    left: 720px;
+}
+
+#ooh {
+    margin: 10px 0px;
+}
+
+.nextlist {
+    padding-bottom: 30px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lastedit {
+
+
+    font-size: 14px;
+    color: rgb(51, 48, 48);
+}
+
+#bye {
+    text-decoration: none;
+    color: #0070ba;
+}
